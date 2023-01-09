@@ -1,0 +1,7 @@
+** Daily Github Contribution Streak
+
+Simple script that prints the longest streak in the past 365 days. Has plenty of room for
+improvement.
+
+Create a file called ~api-key~ and place it in the same directory, just paste the api key from
+here and run with executable permissions.
