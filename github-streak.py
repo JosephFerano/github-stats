@@ -38,13 +38,13 @@ for week in weeks:
         if date["contributionCount"] > 0:
             dates.append(d)
 
-streaks = [0]
+streaks = [1]
 for i, date in enumerate(dates[1:], 1):
     delta = date - dates[i - 1]
     if delta.days == 1:
         streaks[-1] += 1
     elif streaks[-1] > 0:
-        streaks.append(0)
+        streaks.append(1)
 
 streaks.sort(reverse=True)
 
